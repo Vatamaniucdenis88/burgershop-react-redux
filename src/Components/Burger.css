@@ -1,0 +1,26 @@
+.main{
+	display: flex;
+	justify-content: center;
+}
+.mainCover{
+	display: flex;
+    justify-content: space-around;
+	align-items: center;
+    width: 80%
+}
+.Burger{
+	 max-width: 800px;
+	height: auto;
+	margin-top:50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+.mainCover{
+    width: 93%
+}
+}

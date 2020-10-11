@@ -1,0 +1,28 @@
+.Navbar-main{
+	width: 100%;
+	height: 56px;
+	background-color: #2a333a;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.navlogo{
+	width: 130px;
+	margin-top: 40px;
+	
+}
+
+@media (max-width: 600px) {
+
+.Navbar-main{
+	width: 100%;
+	height: 46px;
+}	
+.navlogo{
+	width: 80px;
+	margin-top: 15px;
+	
+}
+}

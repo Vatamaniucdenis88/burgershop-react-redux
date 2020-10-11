@@ -1,0 +1,33 @@
+.Title{
+	width: 100%;
+	height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.Title-text{
+ text-align: center;
+ font-size: 3rem;
+ font-family: 'Bebas Neue', cursive;
+ color:  #2a333a;
+}
+
+@media (max-width: 800px) {
+.Title-text{
+ font-size: 2rem;
+ margin-top:40px
+}
+}
+
+@media (max-width: 600px) {
+.Title{
+	width: 100%;
+	height: auto;
+    display: flex;
+    justify-content: center;
+}
+.Title-text{
+ font-size: 1.5rem;
+ margin-top:15px;
+  margin-bottom:15px
+}	
+}

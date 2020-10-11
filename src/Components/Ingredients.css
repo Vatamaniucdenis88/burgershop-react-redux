@@ -1,0 +1,61 @@
+.Ingredients-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.topbread{
+	width: 50%;
+}
+.bottombread {
+	width: 50%;
+}
+.meat{
+	width: 50%;
+	margin-bottom: 5px;
+	margin-top:  5px;
+}
+
+.chese{
+	width: 50%;
+	margin-bottom: 5px;
+	margin-top:  5px;
+}
+.salat{
+	width: 50%;
+	margin-bottom: 5px;
+	margin-top:  5px;
+}
+.add-list{
+	text-align: center;
+	font-size: 3rem;
+ font-family: 'Bebas Neue', cursive;
+ color:  #2a333a;
+}
+.Ingredient-rows{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (max-width: 600px) {
+.add-list{
+	font-size: 1.5rem;
+}	
+.meat{
+	width: 50%;
+	margin-bottom: 1px;
+	margin-top:  1px;
+}
+
+.chese{
+	width: 50%;
+	margin-bottom: 1px;
+	margin-top:  1px;
+}
+.salat{
+	width: 50%;
+	margin-bottom: 1px;
+	margin-top:  1px;
+}
+}
